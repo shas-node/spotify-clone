@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+@source "../../../apps/**/*.{ts,tsx}";
+@source "../../../components/**/*.{ts,tsx}";
+@source "../**/*.{ts,tsx}";
+
+@theme{
+--color-black: #000000;
+--color-primary: #1DB954;
+--color-background: #121212;
+--color-hover: #181818;
+--color-primary-text: #EAEAEA; --color-secondary-text: #B3B3B3;
+}
